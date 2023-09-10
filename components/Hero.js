@@ -8,19 +8,19 @@ import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 const Hero = ({
   listUser = [
     {
-      name: "E-Waste refers to discarded electronic devices, gadgets, and appliances that have reached the end of their useful life. Like Laptops, Smartphones, Printers, etc",
-      number: "What is E-waste?",
-      icon: "/assets/Icon/heroicons_sm-user.svg",
+      answer: "E-Waste refers to discarded electronic devices, gadgets, and appliances that have reached the end of their useful life. Like Laptops, Smartphones, Printers, Kitchen Applicances etc",
+      question: "What is E-waste?",
+      // icon: "/assets/Icon/heroicons_sm-user.svg",
     },
     {
-      name: "Many electronic devices contain hazardous materials such as lead, mercury, and cadmium, which can leach into the soil and groundwater when left in landfills.",
-      number: "The Environmental Toll",
-      icon: "/assets/Icon/gridicons_location.svg",
+      answer: "Many electronic devices contain hazardous materials such as lead, mercury, and cadmium, which can leach into the soil and groundwater when left in landfills.",
+      question: "The Environmental Toll",
+      // icon: "/assets/Icon/gridicons_location.svg",
     },
     {
-      name: "During e-waste recycling, electronic devices are collected, disassembled, and their components are sorted for material types.Then disposing and extraction is done.",
-      number: "E-Waste Recycling Journey",
-      icon: "/assets/Icon/bx_bxs-server.svg",
+      answer: "During e-waste recycling, electronic devices are collected, disassembled, and their components are sorted for material types.Then disposing and extraction is done.",
+      question: "E-Waste Recycling Journey",
+      // icon: "/assets/Icon/bx_bxs-server.svg",
     },
   ],
 }) => {
@@ -66,15 +66,15 @@ const Hero = ({
               custom={{ duration: 2 + index }}
               variants={scrollAnimation}
             >
-              <div className="flex mx-auto w-40 sm:w-auto">
-                <div className="flex items-center justify-center bg-orange-100 w-12 h-12 mr-6 rounded-full">
+              <div className="flex mx-auto w-40 sm:w-auto ">
+                {/* <div className="flex items-center justify-center bg-orange-100 w-12 h-12 mr-6 rounded-full">
                   <img src={listUsers.icon} className="h-6 w-6" />
-                </div>
+                </div> */}
                 <div className="flex flex-col">
                   <p className="text-xl text-black-600 font-bold">
-                    {listUsers.number}
+                    {listUsers.question}
                   </p>
-                  <p className="text-lg text-black-500">{listUsers.name}</p>
+                  <p className="text-lg text-black-500">{listUsers.answer}</p>
                 </div>
               </div>
             </motion.div>
