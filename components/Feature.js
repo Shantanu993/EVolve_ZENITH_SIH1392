@@ -5,10 +5,14 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
 const features = [
-  "Powerfull online protection.",
-  "Internet without borders.",
-  "Supercharged VPN",
-  "No specific time limits."
+  "Easy Location Services.",
+  "Multiple Recycling Options.",
+  "Earn Rewards While You Recycle.",
+  "Comprehensive Facility Database.",
+  "Comprehensive Educational Resources.",
+  "User Reviews",
+  "User-Centric Design",
+  "Ongoing Maintenance and Updates."
 ]
 
 const Feature = () => {
@@ -36,16 +40,15 @@ const Feature = () => {
 
         <motion.div className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
           <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
-            We Provide Many Features You Can Use
+          Effortless Recycling Made Fun
           </h3>
           <p className="my-2 text-black-500">
-            You can explore the features that we provide with fun and have their
-            own functions each feature.
+          Discover the Fun and Functional Features That Make Recycling Effortless!
           </p>
-          <ul className="text-black-500 self-start list-inside ml-8">
+          <ul className="text-black-500 self-start list-inside ml-8 py-4">
             {features.map((feature, index) => (
               <motion.li
-                className="relative circle-check custom-list"
+                className="relative circle-check custom-list py-0.5"
                 custom={{duration: 2 + index}}
                 variants={scrollAnimation}
                 key={feature}

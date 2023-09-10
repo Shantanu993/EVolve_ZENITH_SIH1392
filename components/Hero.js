@@ -8,18 +8,18 @@ import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 const Hero = ({
   listUser = [
     {
-      name: "Users",
-      number: "390",
+      name: "E-Waste refers to discarded electronic devices, gadgets, and appliances that have reached the end of their useful life. Like Laptops, Smartphones, Printers, etc",
+      number: "What is E-waste?",
       icon: "/assets/Icon/heroicons_sm-user.svg",
     },
     {
-      name: "Locations",
-      number: "20",
+      name: "Many electronic devices contain hazardous materials such as lead, mercury, and cadmium, which can leach into the soil and groundwater when left in landfills.",
+      number: "The Environmental Toll",
       icon: "/assets/Icon/gridicons_location.svg",
     },
     {
-      name: "Server",
-      number: "50",
+      name: "During e-waste recycling, electronic devices are collected, disassembled, and their components are sorted for material types.Then disposing and extraction is done.",
+      number: "E-Waste Recycling Journey",
       icon: "/assets/Icon/bx_bxs-server.svg",
     },
   ],
@@ -35,11 +35,11 @@ const Hero = ({
         >
           <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
             <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
-              Want anything to be easy with <strong>E-WASTE COLLECTOR</strong>.
+              Find, Recycle, Renew. Your <strong>E-WASTE SOLUTION</strong>.
             </h1>
             <p className="text-black-500 mt-4 mb-6">
-              Provide a network for all your needs with ease and fun using
-              discover interesting features from us.
+              Connecting Communities for Sustainable E-Waste Collection and 
+              Easy Facility Discovery - Uncover Our Innovative Features Today!
             </p>
             <ButtonPrimary>Locate Nearby Facility</ButtonPrimary>
           </div>
@@ -72,7 +72,7 @@ const Hero = ({
                 </div>
                 <div className="flex flex-col">
                   <p className="text-xl text-black-600 font-bold">
-                    {listUsers.number}+
+                    {listUsers.number}
                   </p>
                   <p className="text-lg text-black-500">{listUsers.name}</p>
                 </div>

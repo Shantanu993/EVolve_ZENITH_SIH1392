@@ -10,40 +10,40 @@ import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
 const Testimoni = ({
   listTestimoni = [
     {
-      name: "iezh Robert",
+      name: "Aryan Kumawat",
       image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
+      city: "Rajasthan",
+      country: "India",
       rating: "4.5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Wow... I'm thrilled with this E-Waste Solution! It has exceeded my expectations, and I've encountered no issues so far. 'Green Volt' always delivers the best!",
     },
     {
-      name: "iezh Robert",
+      name: "Rhythm Gupta",
       image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
+      city: "Jammu & Kashmir",
+      country: "India",
       rating: "4.5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "I've tried several e-waste platforms, but Green Volt is a game-changer. The convenience, educational content, and the overall experience have been fantastic. Highly recommended!",
     },
     {
-      name: "iezh Robert",
+      name: "Kanishka S",
       image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
+      city: "Lucknow",
+      country: "India",
       rating: "4.5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Kudos to Green Volt for making e-waste disposal so easy and engaging. The rewards system is a brilliant idea, and I've learned so much about the importance of responsible recycling",
     },
     {
-      name: "iezh Robert",
+      name: "Dhruv Rawat",
       image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
+      city: "Uttrakhand",
+      country: "India",
       rating: "4.5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "I've recommended Green Volt to all my friends and family. It's not just a disposal service; it's an educational platform that's changing the way we handle e-waste. I'm a fan!",
     },
   ],
 }) => {
