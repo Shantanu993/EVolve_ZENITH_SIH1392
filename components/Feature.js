@@ -12,8 +12,8 @@ const features = [
   "Comprehensive Educational Resources.",
   "User Reviews",
   "User-Centric Design",
-  "Ongoing Maintenance and Updates."
-]
+  "Ongoing Maintenance and Updates.",
+];
 
 const Feature = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -37,33 +37,36 @@ const Feature = () => {
           </motion.div>
         </ScrollAnimationWrapper>
         <ScrollAnimationWrapper>
-
-        <motion.div className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
-          <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
-          Effortless Recycling Made Fun
-          </h3>
-          <p className="my-2 text-black-500">
-          Discover the Fun and Functional Features That Make Recycling Effortless!
-          </p>
-          <ul className="text-black-500 self-start list-inside ml-8 py-4">
-            {features.map((feature, index) => (
-              <motion.li
-                className="relative circle-check custom-list py-0.5"
-                custom={{duration: 2 + index}}
-                variants={scrollAnimation}
-                key={feature}
-                whileHover={{
-                scale : 1.1,
-                transition: {
-                  duration: .2
-                }
-                }}>
+          <motion.div
+            className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12"
+            variants={scrollAnimation}
+          >
+            <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
+              Effortless Recycling Made Fun
+            </h3>
+            <p className="my-2 text-black-500">
+              Discover the Fun and Functional Features That Make Recycling
+              Effortless!
+            </p>
+            <ul className="text-black-500 self-start list-inside ml-8 py-4">
+              {features.map((feature, index) => (
+                <motion.li
+                  className="relative circle-check custom-list py-0.5"
+                  custom={{ duration: 2 + index }}
+                  variants={scrollAnimation}
+                  key={feature}
+                  whileHover={{
+                    scale: 1.1,
+                    transition: {
+                      duration: 0.2,
+                    },
+                  }}
+                >
                   {feature}
-              </motion.li>
-              )
-            )}
-          </ul>
-        </motion.div>
+                </motion.li>
+              ))}
+            </ul>
+          </motion.div>
         </ScrollAnimationWrapper>
       </div>
     </div>

@@ -13,7 +13,6 @@ const nearby = () => {
           </ButtonPrimary>
         </div>
       </div>
-      ;
       <Footer />
     </>
   );
