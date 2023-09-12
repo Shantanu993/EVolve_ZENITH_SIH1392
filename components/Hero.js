@@ -47,7 +47,10 @@ const Hero = ({
                 Easy Facility Discovery - Uncover Our Innovative Features Today!
               </p>
               <ButtonPrimary>
-                <a href="/nearby">Locate Nearby Facility</a>
+
+                <a href="/nearby">
+                  Locate Nearby Facility
+                </a>
               </ButtonPrimary>
             </div>
             <div className="flex w-full">
