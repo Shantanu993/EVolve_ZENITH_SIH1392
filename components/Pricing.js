@@ -16,7 +16,7 @@ const Pricing = () => {
       className="bg-teagreen-400 w-full py-[7rem]"
       id="pricing"
     >
-      <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
+      <div className="max-w-screen-xl px-6 sm:px-8 lg:px-16 lg:pt-[2rem] pt-[6rem] mx-auto flex flex-col w-full text-center justify-center">
         <div className="flex flex-col w-full">
           <ScrollAnimationWrapper>
             <motion.h3
@@ -37,7 +37,7 @@ const Pricing = () => {
             <ScrollAnimationWrapper className="flex justify-center">
               <motion.div
                 variants={scrollAnimation}
-                className="flex flex-col justify-center items-center border-2 border-umber-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20 bg-olivine-400"
+                className="flex flex-col justify-center items-center border-2 border-umber-500 rounded-xl py-4 lg:w-[60%] w-[100%] px-6 lg:px-12 xl:px-20 bg-olivine-400"
                 whileHover={{
                   scale : 1.1,
                   transition: {
@@ -84,7 +84,7 @@ const Pricing = () => {
             <ScrollAnimationWrapper className="flex justify-center">
               <motion.div
                 variants={scrollAnimation}
-                className="flex flex-col justify-center items-center border-2 border-umber-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20  bg-olivine-400"
+                className="flex flex-col justify-center items-center border-2 border-umber-500 rounded-xl lg:w-[60%] w-[100%] py-4 px-6 lg:px-12 xl:px-20  bg-olivine-400"
                 whileHover={{
                   scale : 1.1,
                   transition: {
@@ -152,17 +152,17 @@ const Pricing = () => {
               {/* <Netflix className="h-18 w-auto" /> */}
               <img
                 src="/assets/Icon/wno.png"
-                className="h-20 w-20 mt-4 lg:mt-2"
+                className="h-[3rem] w-20 mt-4 lg:mt-2 mb-3"
                 alt=""
               />
               <img
                 src="/assets/Icon/sri.png"
-                className="h-14 w-auto mt-2 lg:mt-0"
+                className="h-14 w-auto mt-2 lg:mt-0 mb-3"
                 alt=""
               />
               <img
                 src="/assets/Icon/ncer.png"
-                className="h-12 w-auto mt-2 lg:mt-0"
+                className="h-12 w-auto mt-2 lg:mt-0 mb-3"
                 alt=""
               />
               <img
@@ -182,12 +182,12 @@ const Pricing = () => {
           <ScrollAnimationWrapper>
             <motion.h3
               variants={scrollAnimation}
-              className="text-2xl sm:text-3xl lg:text-4xl font-medium text-umber-500 leading-normal w-9/12 sm: lg:w-7/12 mx-auto pt-[7rem]">
+              className="text-2xl sm:text-3xl lg:text-4xl font-medium text-umber-500 leading-normal w-9/12 w-[17rem] lg:w-7/12 mx-auto pt-[7rem]">
               Trusted by Thousands of Responsible <span className="text-olivine-800">E-Waste</span> Contributors{" "}
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
-              className="leading-normal mx-auto mb-2 mt-4 w-10/12 sm:w-7/12 lg:w-9/12 pt-4 text-chamoisee-500"
+              className="leading-normal mx-auto mb-2 mt-4 w-10/12 sm:w-7/12 lg:w-9/12 pt-3 text-chamoisee-500"
             >
             These Are the Stories of Our E-Waste Heroes Embracing the Exciting Features We Offer with Enthusiasm!
             </motion.p>

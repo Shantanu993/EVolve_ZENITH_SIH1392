@@ -28,10 +28,10 @@ const Hero = ({
 
   return (
     <div className="bg-teagreen-400">
-      <div className="max-w-screen-xl mt-20 px-8 xl:px-16 mx-auto" id="about">
+      <div className="max-w-screen-xl mt-[4rem] px-8 xl:px-16 mx-auto" id="about">
         <ScrollAnimationWrapper>
           <motion.div
-            className="grid grid-flow-row sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2 gap-8 py-6 sm:py-16"
+            className="grid grid-flow-row sm:grid-flow-col pt-[5rem] grid-rows-2 md:grid-rows-1 sm:grid-cols-2 gap-8 py-6 sm:py-16"
             variants={scrollAnimation}
           >
             <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
