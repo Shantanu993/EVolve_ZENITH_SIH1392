@@ -12,8 +12,8 @@ const features = [
   "Comprehensive Educational Resources.",
   "User Reviews",
   "User-Centric Design",
-  "Ongoing Maintenance and Updates."
-]
+  "Ongoing Maintenance and Updates.",
+];
 
 const Feature = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
