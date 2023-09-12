@@ -31,12 +31,12 @@ const Feature = () => {
               variants={scrollAnimation}
             >
               <Image
-                src="/assets/Illustration1.png"
+                src="/assets/Illustration2.png"
                 alt="VPN Illustrasi"
                 layout="responsive"
                 quality={100}
-                height={150}
-                width={250}
+                height={250}
+                width={350}
               />
             </motion.div>
           </ScrollAnimationWrapper>
