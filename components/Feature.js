@@ -35,8 +35,8 @@ const Feature = () => {
                 alt="VPN Illustrasi"
                 layout="responsive"
                 quality={100}
-                height={700}
-                width={600}
+                height={150}
+                width={250}
               />
             </motion.div>
           </ScrollAnimationWrapper>
