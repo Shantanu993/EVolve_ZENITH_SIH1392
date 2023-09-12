@@ -28,57 +28,58 @@ const Footer = () => {
         <div className=" row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">
           <p className="text-black-600 mb-4 font-medium text-lg">Product</p>
           <ul className="text-black-500 ">
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Download{" "}
+            <li className="my-2 text-umber-600 hover:text-chamoisee-500 cursor-pointer transition-all">
+              <a href="#about">About</a>
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Pricing{" "}
+            <li className="my-2 text-umber-600 hover:text-chamoisee-500 cursor-pointer transition-all">
+              <a href="#feature">Features</a>
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Locations{" "}
+            <li className="my-2 text-umber-600 hover:text-chamoisee-500 cursor-pointer transition-all">
+              <a href="#pricing">Disposal</a>
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Server{" "}
+            <li className="my-2 text-umber-600 hover:text-chamoisee-500 cursor-pointer transition-all">
+              <a href="#testimoni">Testimonial</a>
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Countries{" "}
+            <li className="my-2 text-umber-600 hover:text-chamoisee-500 cursor-pointer transition-all">
+              <a href="#footer">Newsletter</a>
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Blog{" "}
-            </li>
+
           </ul>
         </div>
         <div className="row-span-2 sm:col-span-2 sm:col-start-9 sm:col-end-11 flex flex-col">
-          <p className="text-black-600 mb-4 font-medium text-lg">Engage</p>
+          <p className="text-black-600 mb-4 font-medium text-lg">Customer Care</p>
           <ul className="text-black-500">
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              LaslesVPN ?{" "}
+            <li className="my-2 text-umber-600 hover:text-chamoisee-500 cursor-pointer transition-all">
+              Helpline{" "}
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 text-umber-600 hover:text-chamoisee-500 cursor-pointer transition-alls">
               FAQ{" "}
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 text-umber-600 hover:text-chamoisee-500 cursor-pointer transition-alls">
               Tutorials{" "}
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 text-umber-600 hover:text-chamoisee-500 cursor-pointer transition-alls">
               About Us{" "}
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 text-umber-600 hover:text-chamoisee-500 cursor-pointer transition-alls">
               Privacy Policy{" "}
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 text-umber-600 hover:text-chamoisee-500 cursor-pointer transition-alls">
               Terms of Service{" "}
             </li>
           </ul>
         </div>
         <div className="row-span-2 sm:col-span-2 sm:col-start-11 sm:col-end-13 flex flex-col">
-          <p className="text-black-600 mb-4 font-medium text-lg">Earn Money</p>
+          <p className="text-black-600 mb-4 font-medium text-lg">Rewards</p>
           <ul className="text-black-500">
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Affiliate{" "}
+            <li className="my-2 text-umber-600 hover:text-chamoisee-500 cursor-pointer transition-alls">
+              Credits{" "}
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Become Partner{" "}
+            <li className="my-2 text-umber-600 hover:text-chamoisee-500 cursor-pointer transition-alls">
+              Redeem Credits{" "}
+            </li>
+            <li className="my-2 text-umber-600 hover:text-chamoisee-500 cursor-pointer transition-alls">
+              Offers{" "}
             </li>
           </ul>
         </div>

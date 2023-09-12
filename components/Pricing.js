@@ -13,7 +13,7 @@ const Pricing = () => {
 
   return (
     <div
-      className="bg-teagreen-400 w-full py-14"
+      className="bg-teagreen-400 w-full py-[7rem]"
       id="pricing"
     >
       <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
@@ -182,7 +182,7 @@ const Pricing = () => {
           <ScrollAnimationWrapper>
             <motion.h3
               variants={scrollAnimation}
-              className="text-2xl sm:text-3xl lg:text-4xl font-medium text-umber-500 leading-normal w-9/12 sm: lg:w-7/12 mx-auto">
+              className="text-2xl sm:text-3xl lg:text-4xl font-medium text-umber-500 leading-normal w-9/12 sm: lg:w-7/12 mx-auto pt-[7rem]">
               Trusted by Thousands of Responsible <span className="text-olivine-800">E-Waste</span> Contributors{" "}
             </motion.h3>
             <motion.p
