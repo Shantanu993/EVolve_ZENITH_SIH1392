@@ -13,7 +13,7 @@ const Pricing = () => {
 
   return (
     <div
-      className="bg-teagreen-500 w-full py-14"
+      className="bg-teagreen-400 w-full py-14"
       id="pricing"
     >
       <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
@@ -37,7 +37,7 @@ const Pricing = () => {
             <ScrollAnimationWrapper className="flex justify-center">
               <motion.div
                 variants={scrollAnimation}
-                className="flex flex-col justify-center items-center border-2 border-umber-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20 bg-olivine-500"
+                className="flex flex-col justify-center items-center border-2 border-umber-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20 bg-olivine-400"
                 whileHover={{
                   scale : 1.1,
                   transition: {
@@ -84,7 +84,7 @@ const Pricing = () => {
             <ScrollAnimationWrapper className="flex justify-center">
               <motion.div
                 variants={scrollAnimation}
-                className="flex flex-col justify-center items-center border-2 border-umber-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20  bg-olivine-500"
+                className="flex flex-col justify-center items-center border-2 border-umber-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20  bg-olivine-400"
                 whileHover={{
                   scale : 1.1,
                   transition: {
