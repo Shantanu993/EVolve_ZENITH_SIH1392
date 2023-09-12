@@ -118,9 +118,9 @@ const Testimoni = ({
                   </span>
                 </div>
               </div>
-              <p className="mt-5 text-left text-umber-500 font-normal w-[16rem]">
-                “{listTestimonis.testimoni}”.
-              </p>
+
+              <p className="mt-5 text-left text-umber-500 font-normal w-[16rem]">“{listTestimonis.testimoni}”.</p>
+
             </div>
           </div>
         ))}

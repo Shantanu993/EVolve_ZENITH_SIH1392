@@ -12,7 +12,12 @@ const Pricing = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   return (
-    <div className="bg-teagreen-400 w-full py-[7rem]" id="pricing">
+
+    <div
+      className="bg-teagreen-400 w-full py-[7rem]"
+      id="pricing"
+    >
+
       <div className="max-w-screen-xl px-6 sm:px-8 lg:px-16 lg:pt-[2rem] pt-[6rem] mx-auto flex flex-col w-full text-center justify-center">
         <div className="flex flex-col w-full">
           <ScrollAnimationWrapper>
@@ -159,17 +164,23 @@ const Pricing = () => {
               {/* <Netflix className="h-18 w-auto" /> */}
               <img
                 src="/assets/Icon/wno.png"
-                className="h-20 w-20 mt-4 lg:mt-2 mb-1"
+
+                className="h-[3rem] w-20 mt-4 lg:mt-2 mb-3"
+
                 alt=""
               />
               <img
                 src="/assets/Icon/sri.png"
-                className="h-14 w-auto mt-2 lg:mt-0 mb-1"
+
+                className="h-14 w-auto mt-2 lg:mt-0 mb-3"
+
                 alt=""
               />
               <img
                 src="/assets/Icon/ncer.png"
-                className="h-12 w-auto mt-2 lg:mt-0 mb-1"
+
+                className="h-12 w-auto mt-2 lg:mt-0 mb-3"
+
                 alt=""
               />
               <img
@@ -189,10 +200,10 @@ const Pricing = () => {
           <ScrollAnimationWrapper>
             <motion.h3
               variants={scrollAnimation}
-              className="text-2xl sm:text-3xl lg:text-4xl font-medium text-umber-500 leading-normal w-9/12 w-[17rem] lg:w-7/12 mx-auto pt-[7rem]"
-            >
-              Trusted by Thousands of Responsible{" "}
-              <span className="text-olivine-800">E-Waste</span> Contributors{" "}
+
+              className="text-2xl sm:text-3xl lg:text-4xl font-medium text-umber-500 leading-normal w-9/12 w-[17rem] lg:w-7/12 mx-auto pt-[7rem]">
+              Trusted by Thousands of Responsible <span className="text-olivine-800">E-Waste</span> Contributors{" "}
+
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
