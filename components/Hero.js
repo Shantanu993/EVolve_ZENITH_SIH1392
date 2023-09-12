@@ -39,10 +39,14 @@ const Hero = ({
                 Find, Recycle, Renew. Your <strong className="text-olivine-600">E-WASTE SOLUTION</strong>.
               </h1>
               <p className="text-chamoisee-500 mt-4 mb-6">
-                Connecting Communities for Sustainable E-Waste Collection and 
+                Connecting Communities for Sustainable E-Waste Collection and
                 Easy Facility Discovery - Uncover Our Innovative Features Today!
               </p>
-              <ButtonPrimary>Locate Nearby Facility</ButtonPrimary>
+              <ButtonPrimary>
+                <a href="/nearby">
+                  Locate Nearby Facility
+                </a>
+              </ButtonPrimary>
             </div>
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>
