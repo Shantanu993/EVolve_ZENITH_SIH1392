@@ -36,7 +36,7 @@ const Hero = ({
           >
             <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
               <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-umber-500 leading-normal">
-                Find, Recycle, Renew. Your <strong className="text-olivine-600">E-WASTE SOLUTION</strong>.
+                Find, Recycle, Renew. Your <strong className="text-olivine-800">E-WASTE SOLUTION</strong>.
               </h1>
               <p className="text-chamoisee-500 mt-4 mb-6">
                 Connecting Communities for Sustainable E-Waste Collection and 
@@ -59,7 +59,7 @@ const Hero = ({
           </motion.div>
         </ScrollAnimationWrapper>
         <div className="relative w-full flex">
-          <ScrollAnimationWrapper className="rounded-lg w-full grid grid-flow-row sm:grid-flow-row grid-cols-1 sm:grid-cols-3 py-9 divide-y-2 sm:divide-y-0 sm:divide-x-2 divide-umber-500 bg-olivine-500 z-10">
+          <ScrollAnimationWrapper className="rounded-lg w-full grid grid-flow-row sm:grid-flow-row grid-cols-1 sm:grid-cols-3 py-9 divide-y-2 sm:divide-y-0 sm:divide-x-2 divide-umber-500 bg-olivine-100 z-10">
             {listUser.map((listUsers, index) => (
               <motion.div
                 className="flex items-center justify-start sm:justify-center py-4 sm:py-6 w-8/12 px-4 sm:w-auto mx-auto sm:mx-0"
