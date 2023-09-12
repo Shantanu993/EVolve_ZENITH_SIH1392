@@ -6,13 +6,13 @@ import Instagram from "../../public/assets/Icon/instagram.svg";
 const Footer = () => {
   return (
     <div className="bg-teagreen-100 pt-44 pb-24">
-      <div className="max-w-screen-xl w-full mx-auto px-6 sm:px-8 lg:px-16 grid grid-rows-6 sm:grid-rows-1 grid-flow-row sm:grid-flow-col grid-cols-3 sm:grid-cols-12 gap-4">
+      <div className="max-w-screen-xl w-full mx-auto px-6 sm:px-8 lg:px-16 grid grid-rows-4 sm:grid-rows-1 grid-flow-row sm:grid-flow-col grid-cols-3 sm:grid-cols-12 gap-4">
         <div className="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start ">
           <LogoVPN className="h-13 w-50 mb-6" />
-
           <p className="mb-4 text-umber-500 font-normal">
-            <strong className="font-bold text-umber-600">GreenVolt</strong> your E-Waste Disposal and Locator Solution with Unmatched Features and Security.
-
+            <strong className="font-bold text-umber-600">e-Valve</strong> your
+            E-Waste Disposal and Locator Solution with Unmatched Features and
+            Security.
           </p>
           <div className="flex w-full mt-2 mb-8 -mx-2">
             <div className="mx-2 bg-umber-600 rounded-full items-center justify-center flex p-2 shadow-md">
@@ -25,9 +25,9 @@ const Footer = () => {
               <Instagram className="h-6 w-6" />
             </div>
           </div>
-
-          <p className="text-umber-500">©{new Date().getFullYear()} - GreenVolt</p>
-
+          <p className="text-umber-500">
+            ©{new Date().getFullYear()} - e-Valve
+          </p>
         </div>
         <div className=" row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">
           <p className="text-black-600 mb-4 font-medium text-lg">Product</p>
@@ -47,11 +47,12 @@ const Footer = () => {
             <li className="my-2 text-umber-600 hover:text-chamoisee-500 cursor-pointer transition-all">
               <a href="#footer">Newsletter</a>
             </li>
-
           </ul>
         </div>
         <div className="row-span-2 sm:col-span-2 sm:col-start-9 sm:col-end-11 flex flex-col">
-          <p className="text-black-600 mb-4 font-medium text-lg">Customer Care</p>
+          <p className="text-black-600 mb-4 font-medium text-lg">
+            Customer Care
+          </p>
           <ul className="text-black-500">
             <li className="my-2 text-umber-600 hover:text-chamoisee-500 cursor-pointer transition-all">
               Helpline{" "}
@@ -82,7 +83,7 @@ const Footer = () => {
             <li className="my-2 text-umber-600 hover:text-chamoisee-500 cursor-pointer transition-alls">
               Redeem Credits{" "}
             </li>
-            <li className="my-2 text-umber-600 hover:text-chamoisee-500 cursor-pointer transition-alls">
+            <li className="my-2 text-umber-600 hover:text-chamoisee-500 cursor-pointer transition-all">
               Offers{" "}
             </li>
           </ul>

@@ -110,13 +110,17 @@ const Testimoni = ({
                   </div>
                 </div>
                 <div className="flex flex-none items-center ml-auto order-1 xl:order-2">
-                  <p className="text-sm text-olivine-800 font-bold">{listTestimonis.rating}</p>
+                  <p className="text-sm text-olivine-800 font-bold">
+                    {listTestimonis.rating}
+                  </p>
                   <span className="flex ml-4">
                     <Stars className="h-4 w-4" />
                   </span>
                 </div>
               </div>
-              <p className="mt-5 text-left text-umber-500 font-normal">“{listTestimonis.testimoni}”.</p>
+              <p className="mt-5 text-left text-umber-500 font-normal w-[16rem]">
+                “{listTestimonis.testimoni}”.
+              </p>
             </div>
           </div>
         ))}
