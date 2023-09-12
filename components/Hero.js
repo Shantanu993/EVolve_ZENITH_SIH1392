@@ -30,7 +30,7 @@ const Hero = ({
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   return (
-    <div className="bg-teagreen-500">
+    <div className="bg-teagreen-400">
       <div className="max-w-screen-xl mt-20 px-8 xl:px-16 mx-auto" id="about">
         <ScrollAnimationWrapper>
           <motion.div

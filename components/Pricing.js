@@ -13,7 +13,7 @@ const Pricing = () => {
 
   return (
     <div
-      className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14"
+      className="bg-teagreen-400 w-full py-[7rem]"
       id="pricing"
     >
       <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
@@ -21,13 +21,13 @@ const Pricing = () => {
           <ScrollAnimationWrapper>
             <motion.h3
               variants={scrollAnimation}
-              className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed"
+              className="text-2xl sm:text-3xl lg:text-4xl font-medium text-umber-500 leading-relaxed"
             >
               Convenient Disposal Options
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
-              className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto my-2 text-center"
+              className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto my-2 text-center text-chamoisee-500"
             >
               "Select the Perfect Package and Dive into Hassle-Free Recycling
               with a Smile!"
@@ -37,7 +37,8 @@ const Pricing = () => {
             <ScrollAnimationWrapper className="flex justify-center">
               <motion.div
                 variants={scrollAnimation}
-                className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20 w-[100%] md:w-[60%]"
+
+                className="flex flex-col justify-center items-center border-2 border-umber-500 bg-olivine-400 rounded-xl py-4 px-6 lg:px-12 xl:px-20 w-[100%] md:w-[60%]"
                 whileHover={{
                   scale: 1.1,
                   transition: {
@@ -53,10 +54,10 @@ const Pricing = () => {
                     alt="Free Plan"
                   />
                 </div>
-                <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
+                <p className="text-lg text-umber-600 font-medium capitalize my-2 sm:my-7">
                   Drop Off
                 </p>
-                <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
+                <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-chamoisee-500 flex-grow">
                   <li className="relative check custom-list my-2">
                     Immediate Disposal
                   </li>
@@ -74,7 +75,7 @@ const Pricing = () => {
                   </li>
                 </ul>
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
-                  <p className="text-2xl text-black-600 text-center mb-4 ">
+                  <p className="text-2xl text-umber-600 text-center mb-4 ">
                     Free
                   </p>
                   <ButtonOutline>Select</ButtonOutline>
@@ -84,7 +85,8 @@ const Pricing = () => {
             <ScrollAnimationWrapper className="flex justify-center">
               <motion.div
                 variants={scrollAnimation}
-                className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20 w-[100%] md:w-[60%]"
+
+                className="flex flex-col justify-center items-center border-2 border-umber-500 bg-olivine-400 rounded-xl py-4 px-6 lg:px-12 xl:px-20 w-[100%] md:w-[60%]"
                 whileHover={{
                   scale: 1.1,
                   transition: {
@@ -92,16 +94,39 @@ const Pricing = () => {
                   },
                 }}
               >
-                <div className="p-4 lg:p-0 mt-6 lg:mt-16">
-                  <Image
-                    src="/assets/Standard.png"
-                    width={145}
-                    height={165}
-                    alt="Standard Plan"
-                  />
-                </div>
-                <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                  Pick Up{" "}
+
+              <div className="p-4 lg:p-0 mt-6 lg:mt-16">
+                <Image
+                  src="/assets/Standard.png"
+                  width={145}
+                  height={165}
+                  alt="Standard Plan"
+                />
+              </div>
+              <p className="text-lg text-umber-600 font-medium capitalize my-2 sm:my-7">
+                Pick Up{" "}
+              </p>
+              <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-chamoisee-500 flex-grow">
+                <li className="relative check custom-list my-2">
+                  Convenience
+                </li>
+                <li className="relative check custom-list my-2">
+                  Accessibility
+                </li>
+                <li className="relative check custom-list my-2">
+                  Safe Handling
+                </li>
+                <li className="relative check custom-list my-2">
+                  Volume Handling
+                </li>
+                <li className="relative check custom-list my-2">
+                  Flexible Scheduling{" "}
+                </li>
+              </ul>
+              <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
+                <p className="text-2xl text-umber-600 text-center mb-4 ">
+                  ₹10 <span className="text-umber-600">/ km</span>
+
                 </p>
                 <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                   <li className="relative check custom-list my-2">
@@ -134,16 +159,14 @@ const Pricing = () => {
           <ScrollAnimationWrapper>
             <motion.h3
               variants={scrollAnimation}
-              className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed w-9/12 sm:w-6/12 lg:w-4/12 mx-auto"
-            >
-              E-Waste Facilites{" "}
+
+              className="text-2xl sm:text-3xl lg:text-4xl font-medium text-umber-500 leading-relaxed w-9/12 sm:w-6/12 lg:w-4/12 mx-auto">
+              <span className="text-olivine-800">E-Waste</span> Facilites{" "}
             </motion.h3>
-            <motion.p
-              className="leading-normal  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12"
-              variants={scrollAnimation}
-            >
-              Spot E-Waste Facilities Everywhere You Go. We're Here to Simplify
-              Responsible Disposal, No Matter Where You Are!
+            <motion.p className="leading-normal  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12 text-umber-500" variants={scrollAnimation}>
+            Spot E-Waste Facilities Everywhere You Go.
+            We're Here to Simplify Responsible Disposal, No Matter Where You Are!
+
             </motion.p>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper>
@@ -192,13 +215,14 @@ const Pricing = () => {
           <ScrollAnimationWrapper>
             <motion.h3
               variants={scrollAnimation}
-              className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-normal w-9/12 sm: lg:w-7/12 mx-auto"
-            >
-              Trusted by Thousands of Responsible E-Waste Contributors{" "}
+
+              className="text-2xl sm:text-3xl lg:text-4xl font-medium text-umber-500 leading-normal w-9/12 sm: lg:w-7/12 mx-auto pt-[7rem]">
+              Trusted by Thousands of Responsible <span className="text-olivine-800">E-Waste</span> Contributors{" "}
+
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
-              className="leading-normal mx-auto mb-2 mt-4 w-10/12 sm:w-7/12 lg:w-9/12 pt-4"
+              className="leading-normal mx-auto mb-2 mt-4 w-10/12 sm:w-7/12 lg:w-9/12 pt-4 text-chamoisee-500"
             >
               These Are the Stories of Our E-Waste Heroes Embracing the Exciting
               Features We Offer with Enthusiasm!
@@ -210,16 +234,17 @@ const Pricing = () => {
             </motion.div>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper className="relative w-full mt-16">
-            <motion.div variants={scrollAnimation} custom={{ duration: 3 }}>
-              <div className="absolute rounded-xl  py-8 sm:py-14 px-6 sm:px-12 lg:px-16 w-full flex flex-col sm:flex-row justify-between items-center z-10 bg-white-500">
+
+            <motion.div variants={scrollAnimation} custom={{duration: 3}}>
+              <div className="absolute rounded-xl  py-8 sm:py-14 px-6 sm:px-12 lg:px-16 w-full flex flex-col sm:flex-row justify-between items-center z-10 bg-olivine-500">
+
                 <div className="flex flex-col text-left w-10/12 sm:w-7/12 lg:w-5/12 mb-6 sm:mb-0">
-                  <h5 className="text-black-600 text-xl sm:text-2xl lg:text-3xl leading-relaxed font-medium">
-                    Subscribe Now for <br /> E-Newsletters!
+                  <h5 className="text-umber-600 text-xl sm:text-2xl lg:text-3xl leading-relaxed font-medium">
+                    Subscribe Now for <br /> <strong className="text-olivine-800">E-Newsletters!</strong>
                   </h5>
-                  <p>
-                    Subscribe and Uncover the Excitement of Daily E-Waste
-                    Education!.
-                  </p>
+
+                  <p className="text-chamoisee-500">Subscribe and Uncover the Excitement of Daily E-Waste Education!.</p>
+
                 </div>
                 <ButtonPrimary>Get Started</ButtonPrimary>
               </div>
