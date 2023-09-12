@@ -30,11 +30,11 @@ const Pricing = () => {
               with a Smile!"
             </motion.p>
           </ScrollAnimationWrapper>
-          <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-12 py-8 lg:py-12 px-6 sm:px-0 lg:px-6 ">
+          <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-12 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
             <ScrollAnimationWrapper className="flex justify-center">
               <motion.div
                 variants={scrollAnimation}
-                className="flex flex-col justify-center items-center border-2 border-umber-500 bg-olivine-400 rounded-xl py-4 px-6 lg:px-12 xl:px-20 w-[100%] md:w-[60%]"
+                className="flex flex-col justify-center items-center border-2 border-umber-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20 bg-olivine-400"
                 whileHover={{
                   scale: 1.1,
                   transition: {
@@ -81,7 +81,7 @@ const Pricing = () => {
             <ScrollAnimationWrapper className="flex justify-center">
               <motion.div
                 variants={scrollAnimation}
-                className="flex flex-col justify-center items-center border-2 border-umber-500 bg-olivine-400 rounded-xl py-4 px-6 lg:px-12 xl:px-20 w-[100%] md:w-[60%]"
+                className="flex flex-col justify-center items-center border-2 border-umber-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20  bg-olivine-400"
                 whileHover={{
                   scale: 1.1,
                   transition: {
@@ -120,28 +120,6 @@ const Pricing = () => {
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                   <p className="text-2xl text-umber-600 text-center mb-4 ">
                     ₹10 <span className="text-umber-600">/ km</span>
-                  </p>
-                  <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
-                    <li className="relative check custom-list my-2">
-                      Convenience
-                    </li>
-                    <li className="relative check custom-list my-2">
-                      Accessibility
-                    </li>
-                    <li className="relative check custom-list my-2">
-                      Safe Handling
-                    </li>
-                    <li className="relative check custom-list my-2">
-                      Volume Handling
-                    </li>
-                    <li className="relative check custom-list my-2">
-                      Flexible Scheduling{" "}
-                    </li>
-                  </ul>
-                </div>
-                <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
-                  <p className="text-2xl text-black-600 text-center mb-4 ">
-                    ₹10 <span className="text-black-500">/ km</span>
                   </p>
                   <ButtonOutline>Select</ButtonOutline>
                 </div>
@@ -237,7 +215,6 @@ const Pricing = () => {
                     Subscribe Now for <br />{" "}
                     <strong className="text-olivine-800">E-Newsletters!</strong>
                   </h5>
-
                   <p className="text-chamoisee-500">
                     Subscribe and Uncover the Excitement of Daily E-Waste
                     Education!.
