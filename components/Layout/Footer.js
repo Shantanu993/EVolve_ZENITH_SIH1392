@@ -13,7 +13,9 @@ const Footer = () => {
           {/* <LogoVPN className="h-13 w-50 mb-6" /> */}
           <Image className="mb-6" src={Img1} width={180} height={70} />
           <p className="mb-4 text-umber-500 font-normal">
+
             <strong className="font-bold text-umber-600">e-Volve</strong> your E-Waste Disposal and Locator Solution with Unmatched Features and Security.
+
           </p>
           <div className="flex w-full mt-2 mb-8 -mx-2">
             <div className="mx-2 bg-umber-600 rounded-full items-center justify-center flex p-2 shadow-md">
@@ -26,6 +28,7 @@ const Footer = () => {
               <Instagram className="h-6 w-6" />
             </div>
           </div>
+
           <p className="text-umber-500">©{new Date().getFullYear()} - e-Volve</p>
         </div>
         <div className=" row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">
@@ -46,11 +49,12 @@ const Footer = () => {
             <li className="my-2 text-umber-600 hover:text-chamoisee-500 cursor-pointer transition-all">
               <a href="#footer">Newsletter</a>
             </li>
-
           </ul>
         </div>
         <div className="row-span-2 sm:col-span-2 sm:col-start-9 sm:col-end-11 flex flex-col">
-          <p className="text-black-600 mb-4 font-medium text-lg">Customer Care</p>
+          <p className="text-black-600 mb-4 font-medium text-lg">
+            Customer Care
+          </p>
           <ul className="text-black-500">
             <li className="my-2 text-umber-600 hover:text-chamoisee-500 cursor-pointer transition-all">
               Helpline{" "}

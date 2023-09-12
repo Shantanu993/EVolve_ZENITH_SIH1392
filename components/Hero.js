@@ -8,17 +8,20 @@ import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 const Hero = ({
   listUser = [
     {
-      answer: "E-Waste refers to discarded electronic devices, gadgets, and appliances that have reached the end of their useful life. Like Laptops, Smartphones, Printers, Kitchen Applicances etc",
+      answer:
+        "E-Waste refers to discarded electronic devices, gadgets, and appliances that have reached the end of their useful life. Like Laptops, Smartphones, Printers, Kitchen Applicances etc",
       question: "What is E-waste?",
       // icon: "/assets/Icon/heroicons_sm-user.svg",
     },
     {
-      answer: "Many electronic devices contain hazardous materials such as lead, mercury, and cadmium, which can leach into the soil and groundwater when left in landfills.",
+      answer:
+        "Many electronic devices contain hazardous materials such as lead, mercury, and cadmium, which can leach into the soil and groundwater when left in landfills.",
       question: "The Environmental Toll",
       // icon: "/assets/Icon/gridicons_location.svg",
     },
     {
-      answer: "During e-waste recycling, electronic devices are collected, disassembled, and their components are sorted for material types.Then disposing and extraction is done.",
+      answer:
+        "During e-waste recycling, electronic devices are collected, disassembled, and their components are sorted for material types.Then disposing and extraction is done.",
       question: "E-Waste Recycling Journey",
       // icon: "/assets/Icon/bx_bxs-server.svg",
     },
@@ -36,22 +39,21 @@ const Hero = ({
           >
             <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
               <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-umber-500 leading-normal">
-                Find, Recycle, Renew. Your <strong className="text-olivine-600">E-WASTE SOLUTION</strong>.
+                Find, Recycle, Renew. Your{" "}
+                <strong className="text-olivine-600">E-WASTE SOLUTION</strong>.
               </h1>
               <p className="text-chamoisee-500 mt-4 mb-6">
                 Connecting Communities for Sustainable E-Waste Collection and
                 Easy Facility Discovery - Uncover Our Innovative Features Today!
               </p>
               <ButtonPrimary>
-                <a href="/nearby">
-                  Locate Nearby Facility
-                </a>
+                <a href="/nearby">Locate Nearby Facility</a>
               </ButtonPrimary>
             </div>
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>
                 <Image
-                  src="/assets/Illustration1.png"
+                  src="/assets/Illustration2.png"
                   alt="VPN Illustrasi"
                   quality={100}
                   width={612}
@@ -79,7 +81,9 @@ const Hero = ({
                     <p className="text-xl text-umber-600 font-bold">
                       {listUsers.question}
                     </p>
-                    <p className="text-lg text-umber-500 font-normal">{listUsers.answer}</p>
+                    <p className="text-lg text-umber-500 font-normal">
+                      {listUsers.answer}
+                    </p>
                   </div>
                 </div>
               </motion.div>
