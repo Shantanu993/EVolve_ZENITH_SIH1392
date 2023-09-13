@@ -21,11 +21,14 @@ const PlaceForm = () => {
   };
 
   return (
-    <div className="max-w-md p-6 border rounded-lg shadow-md">
-      <h2 className="text-xl font-semibold mb-4">Select Place</h2>
+    <div className="w-[25rem] p-6 border rounded-lg shadow-md">
+      <h2 className="text-xl font-bold text-umber-500 mb-4">Select Place</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
-          <label htmlFor="place" className="block text-gray-600">
+          <label
+            htmlFor="place"
+            className="block text-chamoisee-600 font-medium"
+          >
             Choose a Place:
           </label>
           <select
@@ -33,9 +36,13 @@ const PlaceForm = () => {
             name="place"
             value={selectedPlace}
             onChange={handlePlaceChange}
-            className="w-full mt-1 p-2 border rounded-lg focus:outline-none focus:ring focus:border-blue-300"
+            className="w-full mt-1 p-2 border rounded-lg focus:outline-none focus:ring focus:border-umber-500 bg-olivine-500 text-umber-600 font-medium"
           >
-            <option value="" disabled>
+            <option
+              className="bg-transparent text-umber-500"
+              value="Chennai"
+              disabled
+            >
               Select a place
             </option>
             {places.map((place, index) => (
@@ -47,7 +54,7 @@ const PlaceForm = () => {
         </div>
         <button
           type="submit"
-          className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300"
+          className="py-2 lg:py-2 px-10 lg:px-10 text-white-500 font-semibold rounded-lg bg-umber-500 hover:shadow-umber-md transition-all outline-none"
         >
           Submit
         </button>
