@@ -32,7 +32,7 @@ const Header = () => {
           <div className="col-start-1 col-end-2 flex items-center h-10">
             {/* <Logo className="h-8 w-15" /> */}
 
-            <Image src={Logo1} width={150} height={50} />
+            <Image src={Logo1} width={250} height={50} />
           </div>
           <ul className="hidden lg:flex col-start-4 col-end-8 text-olivine-500  items-center">
             <LinkScroll

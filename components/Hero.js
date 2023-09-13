@@ -62,8 +62,8 @@ const Hero = ({
                   src="/assets/Illustration1.png"
                   alt="VPN Illustrasi"
                   quality={100}
-                  width={600}
-                  height={350}
+                  width={500}
+                  height={400}
                   layout="responsive"
                 />
               </motion.div>
