@@ -7,8 +7,9 @@ const rewards = () => {
   return (
     <>
       <Header />
-      <ApplianceForm />
-      <PickupDropoffForm />
+      <div className="bg-teagreen-400">
+        <ApplianceForm />
+      </div>
       <Footer />
     </>
   );

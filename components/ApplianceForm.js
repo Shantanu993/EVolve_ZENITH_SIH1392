@@ -91,9 +91,9 @@ const ApplianceForm = () => {
   };
 
   return (
-    <div className="container mx-auto py-4 h-[100vh]">
+    <div className="container mx-auto py-4 h-[100vh] ">
       <form
-        className="flex flex-row bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 gap-9 mt-[7rem]"
+        className="flex flex-row bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 gap-9 mt-[7rem] bg-olivine-500"
         onSubmit={handleSubmit}
       >
         <div className="mb-4">

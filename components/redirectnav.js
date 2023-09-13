@@ -23,7 +23,7 @@ const Header = () => {
       >
         <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
           <div className="col-start-1 col-end-2 flex items-center h-10">
-            <Image src={Logo1} width={100} height={100} />
+            <Image src={Logo1} width={250} height={50} />
           </div>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             <Link href="/">
