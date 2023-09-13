@@ -1,5 +1,6 @@
 import Head from "next/head";
-import Header from "@/components/Layout/Header.js";
+// import Header from "@/components/Layout/Header.js";
+import Header from "@/components/redirectnav";
 import Footer from "@/components/Layout/Footer.js";
 import PlaceForm from "@/components/PlaceForm.js";
 import MapEmbed from "@/components/MapEmbed";

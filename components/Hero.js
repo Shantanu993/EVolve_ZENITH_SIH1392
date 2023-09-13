@@ -52,6 +52,9 @@ const Hero = ({
               <ButtonPrimary>
                 <a href="/nearby">Locate Nearby Facility</a>
               </ButtonPrimary>
+              <ButtonPrimary>
+                <a href="/rewards">Rewards</a>
+              </ButtonPrimary>
             </div>
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>
