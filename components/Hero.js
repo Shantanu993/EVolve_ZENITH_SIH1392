@@ -49,12 +49,12 @@ const Hero = ({
                 Connecting Communities for Sustainable E-Waste Collection and
                 Easy Facility Discovery - Uncover Our Innovative Features Today!
               </p>
-              <ButtonPrimary>
-                <a href="/nearby">Locate Nearby Facility</a>
-              </ButtonPrimary>
-              <ButtonPrimary>
-                <a href="/rewards">Rewards</a>
-              </ButtonPrimary>
+              <a href="/nearby">
+                <ButtonPrimary>Locate Nearby Facility</ButtonPrimary>
+              </a>
+              <a href="/rewards" className="mt-2">
+                <ButtonPrimary>Dispose</ButtonPrimary>
+              </a>
             </div>
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>
