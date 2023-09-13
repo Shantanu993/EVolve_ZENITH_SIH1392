@@ -2,6 +2,7 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getFirestore, collection, getDocs } from "firebase/firestore";
+import { GoogleAuthProvider, getAuth, signInWithPopup } from "firebase/auth";
 const firebaseConfig = {
   apiKey: "AIzaSyBmSBonvCpRZKSVrQR4JrJ7rS1jUXHNIRU",
   authDomain: "zenith-sih.firebaseapp.com",
@@ -14,4 +15,15 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+export const auth = getAuth(app);
+const provider = new GoogleAuthProvider();
+
+export const signInWithGoogle = () => {
+  signInWithPopup(auth, provider)
+    .then((result) => {
+      console.log();
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+};

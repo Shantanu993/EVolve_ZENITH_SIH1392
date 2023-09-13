@@ -6,6 +6,7 @@ import ButtonOutline from "../misc/ButtonOutline.";
 import Logo from "../../public/assets/Logo.svg";
 import Logo1 from "../../public/assets/Logo1.png";
 import Image from "next/image";
+import { signInWithGoogle } from "../firebaseConfig";
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState(null);
@@ -15,6 +16,10 @@ const Header = () => {
       setScrollActive(window.scrollY > 20);
     });
   }, []);
+
+  const boturl =
+    "https://mediafiles.botpress.cloud/afc34fdd-0f1b-44c7-8662-e1b49b69fb1c/webchat/bot.html";
+
   return (
     <>
       <header
@@ -27,8 +32,7 @@ const Header = () => {
           <div className="col-start-1 col-end-2 flex items-center h-10">
             {/* <Logo className="h-8 w-15" /> */}
 
-            <Image src={Logo1} width={150} height={50}/>
-
+            <Image src={Logo1} width={150} height={50} />
           </div>
           <ul className="hidden lg:flex col-start-4 col-end-8 text-olivine-500  items-center">
             <LinkScroll
@@ -106,11 +110,18 @@ const Header = () => {
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             <Link href="/">
-              <a className="text-black-600 mx-2 sm:mx-4 capitalize tracking-wide hover:text-umber-500 transition-all">
+              <button
+                onClick={signInWithGoogle}
+                className="text-black-600 mx-2 sm:mx-4 capitalize tracking-wide hover:text-umber-500 transition-all"
+              >
                   Sign In
-              </a>
+              </button>
             </Link>
-            <ButtonOutline>Sign Up</ButtonOutline>
+            <ButtonOutline>
+              <Link href={boturl} target="_blank">
+                Chat!
+              </Link>
+            </ButtonOutline>
           </div>
         </nav>
       </header>
