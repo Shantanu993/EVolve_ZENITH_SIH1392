@@ -7,7 +7,7 @@ import SeoHead from "../components/SeoHead";
 export default function Home() {
   return (
     <>
-      <SeoHead title="E-Waste Collector" />
+      <SeoHead title="E-Volve_Mavericks" />
       <Layout>
         <Hero />
         <Feature />
